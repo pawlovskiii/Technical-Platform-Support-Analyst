@@ -2,7 +2,7 @@ import requests
 import json
 
 
-def get_CSAT_score_for_today(DOMAIN, API_KEY, PASSWORD):
+def get_CSAT_score_for_today(DOMAIN, API_KEY, PASSWORD) -> None:
 
     # CSAT% = (Number of positive responses / Total number of responses) x 100
     r = requests.get(f"https://{DOMAIN}.freshdesk.com/api/v2/surveys/satisfaction_ratings", auth=(API_KEY, PASSWORD))

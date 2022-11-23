@@ -3,7 +3,7 @@ from src.get_CSAT_score import get_CSAT_score_for_today
 
 
 
-def main():
+def main() -> None:
 
     API_KEY = "W28pTo26fhCgwzze6O9b"
     DOMAIN = "zoovu"

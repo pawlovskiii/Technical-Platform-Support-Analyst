@@ -2,7 +2,7 @@ import requests
 import json
 
 
-def get_resolved_tickets_for_today(DOMAIN, API_KEY, PASSWORD):
+def get_resolved_tickets_for_today(DOMAIN, API_KEY, PASSWORD) -> None:
 
     r = requests.get(
         f'https://{DOMAIN}.freshdesk.com/api/v2/search/tickets?query="status:4%20AND%20due_by:"2022-11-23""',
