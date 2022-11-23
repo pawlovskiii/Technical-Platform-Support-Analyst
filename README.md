@@ -29,7 +29,5 @@ $ pip install -r requirements.txt
 ### Run the project
 
 ```python
-python .\get_CSAT_score.py
-
-python .\get_resolved_tickets.py
+python .\main.py
 ```
