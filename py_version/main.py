@@ -1,5 +1,5 @@
-from src_py.get_resolved_tickets import get_resolved_tickets_for_today
-from src_py.get_CSAT_score import get_CSAT_score_for_today
+from py_version.src.get_resolved_tickets import get_resolved_tickets_for_today
+from py_version.src.get_CSAT_score import get_CSAT_score_for_today
 
 
 
