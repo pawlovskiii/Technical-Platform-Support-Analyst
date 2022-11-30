@@ -31,15 +31,43 @@ $ cd Technical-Platform-Support-Analyst
 ### Installing dependencies
 
 ```bash
-# To download all the necessarily Python packages needed for the project
+# To download all the necessary Python packages needed for the project
 $ pip install -r requirements.txt
 
-# Install dependencies for JavaScript version
+# Install dependencies for the JavaScript version
 $ npm install
 ```
 
 ### Run the project
 
-```python
-python .\main.py
+To run the Python version type the below commands in order:
+
+```bash
+$ cd py_version
+
+$ python main.py
+```
+
+To run the JavaScript version type the below commands in order:
+
+```bash
+$ cd js_version
+
+$ node main.js
+```
+
+To run the Python version of the algorithm task provided in the interview type the below commands in order:
+
+```bash
+$ cd interview_algo_solved
+
+$ python pyVersion.py
+```
+
+To run the JavaScript version of the algorithm task provided in the interview type the below commands in order:
+
+```bash
+$ cd interview_algo_solved
+
+$ node jsVersion.js
 ```
