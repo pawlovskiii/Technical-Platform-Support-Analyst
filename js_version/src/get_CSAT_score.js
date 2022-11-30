@@ -1,7 +1,7 @@
 const unirest = require('unirest');
 
-function get_resolved_tickets_for_today(API_KEY, DOMAIN) {
-	const URL = `https://${DOMAIN}.freshdesk.com/api/v2/search/tickets?query="status:4%20AND%20due_by:"2022-11-23""`;
+function get_CSAT_score_for_today(API_KEY, DOMAIN) {
+	const URL = `https://${DOMAIN}.freshdesk.com/api/v2/surveys/satisfaction_ratings?created_since=2022-11-23T00:00:01Z`;
 	const Request = unirest.get(URL);
 
 	Request.auth({
@@ -16,4 +16,4 @@ function get_resolved_tickets_for_today(API_KEY, DOMAIN) {
 	});
 }
 
-exports.get_resolved_tickets_for_today = get_resolved_tickets_for_today;
+exports.get_CSAT_score_for_today = get_CSAT_score_for_today;
