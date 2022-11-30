@@ -15,7 +15,7 @@ Please use Freshdesk’s API documentation to build API calls to extract the fol
 - CSAT score for today
 - All tickets resolved today
 
-Additionally, in the interview, I was supposed to solve an algorithm problem with a provided list of dictionaries (Python) or objects (JavaScript). I decided to extend the current repository to involve solutions both in Python and JS. I placed it in the **interview_algo_solved**. In the [Run the project](#run-the-project) I explained how to run these files with solutions. 
+Additionally, in the interview, I was supposed to solve an algorithm problem with a provided list of dictionaries (Python) or objects (JavaScript). I decided to extend the current repository to involve solutions both in Python and JS. I placed it in the **interview_algo_solved** folder. In the [Run the project](#run-the-project) I explained how to run these files with solutions. 
 
 ## Setup
 
